@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script loops from 1 to 10 and
+# do the FizzBuzz Chinese version
+i=1
+while [ $i -lt 11 ]
+do
+	if [ $i = 4 ]; then
+		echo "bad luck"
+		i=$((i + 1))
+	elif [ $i = 8 ]; then
+		echo "good luck"
+		i=$((i + 1))
+	else
+		echo "Best School"
+		i=$((i + 1))
+	fi
+done
