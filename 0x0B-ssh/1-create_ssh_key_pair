@@ -1,3 +1,3 @@
-#!/usr/bin/env/ bash
+#!/usr/bin/env bash
 #How to create a public key
 ssh-keygen -f 4096 -b school -N betty
