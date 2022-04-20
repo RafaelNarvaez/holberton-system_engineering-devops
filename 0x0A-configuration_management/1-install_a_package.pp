@@ -1,7 +1,6 @@
 # The Puppet Installer
 
-package { 'puppet-lint':
+package { 'flask':
   ensure   => '2.1.0',
-  provider => 'gem',
-  source   => 'https://rubygems.org',
-}
+  provider => 'pip3',
+  }
