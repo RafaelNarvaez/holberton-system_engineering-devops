@@ -2,7 +2,7 @@
 $str = "host *
   ForwardAgent yes
   ForwardX11 yes
-  IdentifyFile ~/.ssh/school
+  IdentityFile ~/.ssh/school
 "
 file {'etc/ssh/ssh_config':
   ensure  => 'present',
