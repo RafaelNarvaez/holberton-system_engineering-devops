@@ -25,4 +25,4 @@ if __name__ == '__main__':
           .format(name, complete, total_task))
     for x in task_title:
         print("\t {}".format(x))
-                             
+                         
